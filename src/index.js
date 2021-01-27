@@ -1,4 +1,7 @@
-// import initModal from './js/modal.js';
-// import './scss/styles.scss';
 
-// initModal();
+import './js/templating';
+import './js/theme';
+import './styles.css';
+
+
+

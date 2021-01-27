@@ -1,3 +1,8 @@
-import itemsTemplate from '../templates/gallery-items.hbs'
+import menuItemsTemplate from '../templates/menu-items.hbs';
+import menu from '../menu.json';
 
-console.log(itemsTemplate);
+
+const jsMenuRef = document.querySelector('.js-menu');
+
+const markup = menuItemsTemplate(menu);
+jsMenuRef.insertAdjacentHTML('beforeend', markup);
