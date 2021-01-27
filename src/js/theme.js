@@ -1,7 +1,7 @@
 const Theme = {
     LIGHT: 'light-theme',
-    DARK: 'dark-theme',
-    CURRENT: ''
+    DARK: 'dark-theme'
+    
 };
 
 const checkbox = document.querySelector('#theme-switch-toggle');
